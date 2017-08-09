@@ -29,10 +29,12 @@ Please use the [7-1 SCSS folder architecture by Hugo Giraudel](https://sass-guid
 - Placeholders
 - Functions
 
+This project is using the Muli font
+
 You can update any pre-written code in the project and add any needed server code.
 
 ### General Page Details
-The header will be sticky and will contain 5 links.
+The header will be sticky and will contain five links.
 
 When clicking on any header link, they become active. The images above shows this state
 
@@ -42,7 +44,7 @@ This is the landing page for the project. You can get to this page via `localhos
 ### Modal Page
 This is the modal page for the project. You can get to this page via `localhost:3000/modal` and by clicking on the `Modal Page` button.
 
-Please note that the `Open Modal` button has to be below the page fold so that a user will need to scroll down the page to click on it.
+Please note that the `Open Modal` button has to be below the page fold so that a user will need to scroll down the page to click on it. **The dotted line is to show where the page fold would be. Please exclude this from the design**
 
 ### Modal Page Modal State
 When clicking on the `Open Modal` button a modal should appear following this animation.
@@ -69,7 +71,7 @@ Using ng-repeat, create a table that displays this information as shown in the d
 - Column filters when clicking on the column headers (for the name colunm, have it filter alphabetically and for the disconnected since have it filter by earliest time)
 
 ## How to run the server
-To run the server for the first time, please run the following commands  
+To run the server for the first time, please run the following command  
 `npm i`
 
 Once all the dependencies have been installed. You can run the server using the following command  

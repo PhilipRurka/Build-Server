@@ -14,12 +14,12 @@ This is the modal page for the project.
 ![Image of Modal Page](https://github.com/KoltonG/Build-Server/raw/master/resources/Modal%20Page.png)
 
 ### Modal Page - Modal
-This is the modal state of the modal page. When clicking on the `Open Modal` button a modal will appear. Please follow these steps for the proper modal appear animation.
+This is the modal state of the modal page for the project.
 
 ![Image of Modal Page - Modal](https://github.com/KoltonG/Build-Server/raw/master/resources/Modal%20Page%20-%20Modal.png)
 
 ## Project Scope
-Below will list all the required information for this project as well as any requirements.
+Below will list all the required information for this project.
 
 ### General Information
 This project will need to use Angular version 1.0.0 and should refrain from using jQuery(less is better) and Bootstrap(the grid system is accepted).
@@ -36,18 +36,18 @@ You can update any pre-written code in the project and add any needed server cod
 ### General Page Details
 The header will be sticky and will contain five links.
 
-When clicking on any header link, they become active. The images above shows this state
+When clicking/hovering on any header link, they become active. The images above shows this state.
 
 ### Landing Page
 This is the landing page for the project. You can get to this page via `localhost:3000` and by clicking on the `Home` link in the header.
 
 ### Modal Page
-This is the modal page for the project. You can get to this page via `localhost:3000/modal` and by clicking on the `Modal Page` button.
+This is the modal page for the project. You can get to this page via `localhost:3000/modal` and by clicking on the `Modal Page` link.
 
 Please note that the `Open Modal` button has to be below the page fold so that a user will need to scroll down the page to click on it. **The dotted line is to show where the page fold would be. Please exclude this from the design**
 
 ### Modal Page Modal State
-When clicking on the `Open Modal` button a modal should appear following this animation.
+When clicking on the `Open Modal` button a modal should appear following these instructions.
 
 #### Modal Appear Animation
 1. When the user wants to open the modal

@@ -29,52 +29,55 @@ Please use the [7-1 SCSS folder architecture by Hugo Giraudel](https://sass-guid
 - Placeholders
 - Functions
 
-This project is using the Muli font
+This project is using the Muli font.
 
 You can update any pre-written code in the project and add any needed server code.
 
-### General Page Details
-The header will be sticky and will contain five links.
+### Header
+The header will be sticky and contain five links.
+The Home link will route to the landing page and the Modal Page link will route to the modal page.
 
-When clicking/hovering on any header link, they become active. The images above shows this state.
+The active and hover state of the links in the header share the same style.
+Links entering this state should not push or break the position of the other links.
 
 ### Landing Page
-This is the landing page for the project. You can get to this page via `localhost:3000` and by clicking on the `Home` link in the header.
+This is the landing page for the project. 
+This is the default route. 
 
 ### Modal Page
-This is the modal page for the project. You can get to this page via `localhost:3000/modal` and by clicking on the `Modal Page` link.
+Make this page's route `localhost:3000/modal`.
 
-Please note that the `Open Modal` button has to be below the page fold so that a user will need to scroll down the page to click on it. **The dotted line is to show where the page fold would be. Please exclude this from the design**
+Please note that the `Open Modal` button has to be below the page fold so that a user will need to scroll down the page to click on it. **The dotted line is not part of the design. Its to show where the page fold would be.**
 
 ### Modal Page Modal State
-When clicking on the `Open Modal` button a modal should appear following these instructions.
+When clicking on the `Open Modal` button, a modal should appear with following features.
 
-#### Modal Appear Animation
-1. When the user wants to open the modal
+#### Modal Appear Feature
+1. When the user activates the Open Modal button.
 > Dark overlay fades in  
-> When dark overlay has faded in, have the modal fade in
+> When dark overlay has completely faded in, have the modal fade in
 
-2. When the user wants to close the modal
-> When clicking on the dark overlay, or the X sign, have the modal fade out  
-> Once the modal has faded out, have the dark overlay fade out
+2. When the user closes the modal by either clicking on the black overlay or by clicking on the x sign.
+> Modal fades out
+> When the modal has completely faded out, have the dark overlay fade out
 
-The modal will be centered vertically and horizontally centered.
+The modal must be vertically and horizontally centered on the browser view.
 
-There is a table that is shown on this page that presents the information from the following endpoint:
+The table in this modal will display data from the following endpoint:
 ```
 URL: https://test-backend.azurewebsites.net/v1/properties
 Header: Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InF1ZXN0aW9uQHNpbXB0ZWsuY2EiLCJpYXQiOjE1MDIyMzY0ODEsImV4cCI6MTUwMjI0NzI4MX0.C8hCDimD_qyNGe1_u8arV_xM_TEo-SiZ_pSINHls09E
 ```
 
-Using ng-repeat, create a table that displays this information as shown in the design from the endpoint. The table should have the following capabilites:
+Populate the table using ng-repeat. The table should have the following capabilites:
 - A search bar that can filter by name and address
-- Column filters when clicking on the column headers (for the name colunm, have it filter alphabetically and for the disconnected since have it filter by earliest time)
+- Column filters when clicking on the column headers (for the name colunm, make it filter by name only and for the disconnected since make it filter by earliest time)
 
 ## How to run the server
-To run the server for the first time, please run the following command  
+To run the server for the first time, please run the following command.
 `npm i`
 
-Once all the dependencies have been installed. You can run the server using the following command  
+Once all the dependencies have been installed. You can run the server using the following command.
 `npm start`
 
 ## How to submit your solution

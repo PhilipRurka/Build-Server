@@ -34,7 +34,7 @@ This project is using the Muli font
 You can update any pre-written code in the project and add any needed server code.
 
 ### General Page Details
-The header will be sticky and will contain five links.
+The header will be sticky and contain five links.
 
 When clicking/hovering on any header link, they become active. The images above shows this state.
 

@@ -35,7 +35,7 @@ You can update any pre-written code in the project and add any needed server cod
 
 ### Header
 The header will be sticky and contain five links.
-The Home link will route to the landing page and the Modal Page link will route to the modal page.
+The Home link will route to the Landing Page and the Modal Page link will route to the Modal Page.
 
 The active and hover state of the links in the header share the same style.
 Links entering this state should not push or break the position of the other links.
@@ -45,14 +45,15 @@ This is the landing page for the project.
 This is the default route. 
 
 ### Modal Page
-Make this page's route `localhost:3000/modal`.
+This is the modal page for the project.
+This page route is `/modal`.
 
 Please note that the `Open Modal` button has to be below the page fold so that a user will need to scroll down the page to click on it. **The dotted line is not part of the design. Its to show where the page fold would be.**
 
 ### Modal Page Modal State
-When clicking on the `Open Modal` button, a modal should appear with following features.
+When clicking on the `Open Modal` button, a modal should appear. The instructions below explains the desired opening and closing transitions.
 
-#### Modal Appear Feature
+#### Modal Appear Transition
 1. When the user activates the Open Modal button.
 > Dark overlay fades in  
 > When dark overlay has completely faded in, have the modal fade in
@@ -71,7 +72,7 @@ Header: Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InF1ZXN0
 
 Populate the table using ng-repeat. The table should have the following capabilites:
 - A search bar that can filter by name and address
-- Column filters when clicking on the column headers (for the name colunm, make it filter by name only and for the disconnected since make it filter by earliest time)
+- Column filters when clicking on the column headers (for the name column, make it filter by name only and for the disconnected since make it filter by earliest time)
 
 ## How to run the server
 To run the server for the first time, please run the following command.
